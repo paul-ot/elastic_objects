@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f0f0f0"/>
+  
+  <!-- Python logo (simplified) -->
+  <g transform="translate(50, 200) scale(0.8)">
+    <path d="M 0,0 C 0,50 50,100 100,100 C 150,100 200,50 200,0 C 200,-50 150,-100 100,-100 C 50,-100 0,-50 0,0 Z" fill="#306998"/>
+    <path d="M 200,0 C 200,50 250,100 300,100 C 350,100 400,50 400,0 C 400,-50 350,-100 300,-100 C 250,-100 200,-50 200,0 Z" fill="#FFD43B"/>
+  </g>
+  
+  <!-- Static liquid effect -->
+  <g transform="translate(400, 200)">
+    <circle cx="0" cy="0" r="155" fill="#3776AB" opacity="0.7"/>
+    <circle cx="50" cy="-50" r="105" fill="#FFD43B" opacity="0.7"/>
+    <circle cx="-50" cy="50" r="85" fill="#306998" opacity="0.7"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="40" text-anchor="middle" fill="#333333">Liquid Objects in Python</text>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#666666">Dynamic Programming Reimagined</text>
+</svg>
