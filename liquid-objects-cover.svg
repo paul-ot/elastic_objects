@@ -16,6 +16,6 @@
   </g>
   
   <!-- Text -->
-  <text x="400" y="50" font-family="Arial, sans-serif" font-size="40" text-anchor="middle" fill="#333333">Liquid Objects in Python</text>
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="40" text-anchor="middle" fill="#333333">Elastic Objects in Python</text>
   <text x="400" y="380" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#666666">Dynamic Programming Reimagined</text>
 </svg>

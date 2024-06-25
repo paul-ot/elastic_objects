@@ -1,8 +1,8 @@
-# LiquidPy
+# ElasticObjects
 
-![alt text](./liquid-objects-cover.svg "Liquid Objects")
+![alt text](./liquid-objects-cover.svg "Elastic Objects")
 
-LiquidPy introduces the concept of "liquid objects" in Python - a flexible approach to object-oriented programming that allows for dynamic attribute assignment and management at runtime.
+ElasticObjects introduces the concept of "elastic objects" in Python - a flexible approach to object-oriented programming that allows for dynamic attribute assignment and management at runtime.
 
 ## Features
 
@@ -13,10 +13,10 @@ LiquidPy introduces the concept of "liquid objects" in Python - a flexible appro
 
 ## Installation
 
-You can install LiquidPy using pip:
+You can install ElasticObjects using pip:
 
 ```bash
-pip install liquidpy
+pip install elastic_objects
 ```
 
 ## Usage
@@ -24,10 +24,10 @@ pip install liquidpy
 ### Basic Usage
 
 ```python
-from liquidpy.liquid_object import LiquidObject
+from elastic_objects.elastic_object import ElasticObject
 
-# Create a new liquid object
-person = LiquidObject()
+# Create a new elastic object
+person = ElasticObject()
 
 # Add attributes dynamically
 person.name = "Alice"
@@ -52,7 +52,7 @@ del person.age
 
 ```python
 # Initialize with attributes
-config = LiquidObject(
+config = ElasticObject(
     database="mysql",
     host="localhost",
     port=3306
@@ -69,15 +69,15 @@ config.username = "admin"
 
 ```python
 import requests
-from liquidpy import LiquidObject
+from elastic_objects.elastic_object import ElasticObject
 
 def get_user_data(user_id):
     # Simulating an API call
     response = requests.get(f"https://api.example.com/users/{user_id}")
     data = response.json()
     
-    # Create a liquid object from the response
-    user = LiquidObject(**data)
+    # Create an elastic object from the response
+    user = ElasticObject(**data)
     
     return user
 

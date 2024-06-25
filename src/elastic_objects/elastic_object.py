@@ -1,4 +1,4 @@
-class LiquidObject:
+class ElasticObject:
     def __init__(self, **kwargs):
         self._attributes = {}
         self._setup_attributes(**kwargs)

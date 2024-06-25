@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="liquidpy",
+    name="elastic_objects",
     version="0.1.1",
     author="Paul Marclay",
     author_email="paul.eduardo.marclay@gmail.com",
-    description="LiquidPy introduces the concept of 'liquid objects' in Python - a flexible approach to object-oriented programming.",
+    description="ElasticObjects introduces the concept of 'elastic objects' in Python - a flexible approach to object-oriented programming.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/paul-ot/liquidpy",
+    url="https://github.com/paul-ot/elastic-objects",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
